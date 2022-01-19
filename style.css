@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background: #6332f6;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+
+.swiper-slide{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    transition: .5s linear;
+}
+
+:root{
+    --swiper-theme-color: #6332f6;
+}
+
+button{
+    padding: 10px;
+    background: #6332f6;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+    background: #571fff;
+}
